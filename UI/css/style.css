@@ -1,0 +1,107 @@
+body{
+	background-image: url(../images/time.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff;
+}
+.con{
+	width: 80%;
+    margin: 200px auto;
+    min-height: 320px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.con1{
+	width: 80%;
+    margin: 100px auto;
+    min-height: 500px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.b-list{
+	padding-top: 20px;
+}
+.bucket{
+	margin-top: 20px;
+}
+.view .form-control{
+	width: 80%;
+}
+.Tarea{
+	padding-top: 18px;
+}
+.Tarea2{
+	padding-top: 20px;
+}
+.container{
+	max-width:1040px;
+}
+.top{
+	margin-bottom: 30px;
+}
+.logs{
+	margin-top: -50px;
+}
+.des{
+  margin-bottom: 100px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+td, th {
+  background-color: transparent;
+  border: solid 1px cyan;
+  padding: 10px 60px 10px 5px;
+  color: grey;
+
+}
+ th {
+  color: white;
+}
+
+tr:nth-child(even) {
+    background-color: transparent;
+}
+.tbl{
+  background-color: black;
+  width: 100%;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.72);
+}
+#view{
+   padding: 5px 10px;
+  cursor: pointer;
+  background-color: cyan;
+}
+.edit{
+  background-color: black;
+  max-width: 800px;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.72);
+  margin-top: 10%;
+}
+.update{
+   background-color: rgba(0, 0, 0, 0.72);
+   background-color: black;
+  max-width: 800px;
+  background-color: cyan;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 20px;
+  float: left;
+  cursor: pointer;
+ /* margin-left: 20px;*/
+}
+
+.del{
+   margin-top: 20px;
+   margin-right: 76%;
+   padding: 10px 20px;
+  background-color: cyan;
+  color: black;
+  cursor: pointer;
+}
